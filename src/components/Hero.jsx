@@ -1,7 +1,6 @@
-import React from "react";
 import { HERO_CONTENT } from "../constants";
-import proficePic from "../assets/WhatsApp_Image_2024-12-22_at_16.51.55_4aa9ea50-removebg-preview.png";
-import {motion } from "framer-motion";
+import proficePic from "../assets/NEWPROFIlE.png";
+import { motion } from "framer-motion";
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
   visible: {
@@ -48,9 +47,9 @@ const Hero = () => {
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 1.2 }}
-              className="rounded"
+              className="h-80 w-80 rounded-full object-cover object-[center_8%] border-4 border-purple-500/20 shadow-2xl"
               src={proficePic}
-              alt=""
+              alt="Sai Varun - Full Stack Developer"
             />
           </div>
         </div>

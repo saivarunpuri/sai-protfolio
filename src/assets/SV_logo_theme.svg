@@ -1,0 +1,17 @@
+<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="borderGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </radialGradient>
+    <linearGradient id="textGradient" x1="0" y1="0" x2="60" y2="60" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#6366f1"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#a78bfa" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+  <circle cx="30" cy="30" r="27" fill="#18181b" stroke="url(#borderGradient)" stroke-width="4" filter="url(#shadow)"/>
+  <text x="50%" y="54%" text-anchor="middle" fill="url(#textGradient)" font-size="28" font-family="Inter, Arial, sans-serif" font-weight="bold" dy=".3em" style="letter-spacing:2px;">SV</text>
+</svg> 

@@ -1,7 +1,9 @@
 import project2 from "../assets/projects/project-2.jpg";
-import jobportal from "../assets/projects/Insider-Jobs.png"
-import password from "../assets/projects/password.png"
-import cowin from "../assets/projects/WhatsApp Image 2024-12-22 at 17.41.16_1da59433.jpg"
+import jobportal from "../assets/projects/Insider-Jobs.png";
+import password from "../assets/projects/password.png";
+import cowin from "../assets/projects/WhatsApp Image 2024-12-22 at 17.41.16_1da59433.jpg";
+import carRental from "../assets/CAR-rental.png";
+import ecommerce from "../assets/projects/ECOMMERCEAPI.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications.  I have honed my skills in front-end technologies like React , as well as back-end technologies like Node.js, MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -39,6 +41,37 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "CarRental Pro",
+    image: carRental,
+    description:
+      "A revolutionary car rental platform with cutting-edge technology. Features include smart search, flexible booking, secure payments, real-time updates, location-based search, and comprehensive fleet management for car owners with analytics dashboard.",
+    technologies: [
+      "React",
+      "Node.js",
+      "MongoDB",
+      "Express.js",
+      "JWT",
+      "TailwindCSS",
+      "Framer Motion",
+    ],
+  },
+  {
+    title: "E-commerce API",
+    image: ecommerce,
+    description:
+      "A complete e-commerce API built with Node.js, Express, and MongoDB featuring authentication, product management, cart operations, order processing, pagination, search, and comprehensive error handling.",
+    technologies: [
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JWT",
+      "bcrypt",
+      "HTML",
+      "CSS",
+      "JavaScript",
+    ],
+  },
   {
     title: "Job Portal",
     image: jobportal,
